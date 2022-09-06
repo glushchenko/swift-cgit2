@@ -20,8 +20,7 @@ let package = Package(
     .testTarget(name: "Cgit2Tests", dependencies: ["Cgit2"]),
     .binaryTarget(
       name: "libgit2",
-      url: "https://github.com/sharplet/swift-cgit2/releases/download/v1.1.1/libgit2.xcframework.zip",
-      checksum: "433fc5d4cb892325b4469eadf1eda33ede2663340cc36857484d166cc0ad5a99"
+      url: "https://github.com/glushchenko/swift-cgit2/releases/download/1.2.0/libgit2.xcframework.zip",
     ),
   ]
 )
